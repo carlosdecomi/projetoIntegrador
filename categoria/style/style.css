@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.navbar{
+  width: 100%;
+  height:100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ccc;
+}
+
+.log-img{
+  display: flex;
+}
+
+.busca-usuario{
+  display: flex;
+  align-items: center;
+  
+}
+
+.busca-usuario .usuario{
+  margin-bottom: 10px;
+}
+
+.busca-usuario .busca{
+  width: 10rem;
+  height: 2rem;
+  margin-right: 50px;
+}
+
+
+header .navbar img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+h1{
+  text-align: center;
+  margin-top:100px;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.flex > div{
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.legend{
+  color: #FFCD00;
+}
+
+.title{
+  color: #FFCD00;
+}
+
