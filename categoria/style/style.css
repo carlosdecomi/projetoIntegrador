@@ -45,12 +45,16 @@ header .navbar img {
 
 h1{
   text-align: center;
-  margin-top:100px;
+  margin-top:50px;
+}
+
+h2 {
+  text-align: center;
 }
 
 img{
-  max-width: 100%;
-  display: block;
+  width: auto;
+  height: 100%;
 }
 
 .flex{
@@ -58,7 +62,6 @@ img{
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: black;
 }
 
 .flex > div{
@@ -66,11 +69,14 @@ img{
   margin: 10px;
 }
 
+.texto-area h2{
+  color: black;
+}
+
 .legend{
-  color: #FFCD00;
+  color: #888787;
 }
 
-.title{
-  color: #FFCD00;
+.img-area{
+  height: 320px;
 }
-
