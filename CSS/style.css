@@ -1,121 +1,108 @@
-body {
-    background-color: black;
-    font-family: arial;    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-header {
-    box-sizing:border-box;
-    border-top: 2px solid orangered;
-    border-bottom: 2px solid orangered;
-    background-color: black;
-    margin-bottom: 15px;
-    padding-top: 15px;
-    max-width: 100%;
-        
+body {
+  background-color: black;
+  font-family: arial;
+}
+
+.center {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2%;
 }
 
 main.carrossel {
-    box-sizing: border-box;
-    padding-top: 15px;
-    margin-bottom: 20px;
-    max-width: 100%;
-
+  box-sizing: border-box;
+  padding-top: 15px;
+  margin-bottom: 20px;
+  max-width: 100%;
 }
 article.buttons {
-    box-sizing: border-box;
-    border-top: 2px solid orangered;
-    margin-bottom:15px;
-    padding: 22px;
+  box-sizing: border-box;
+  border-top: 2px solid orangered;
+  margin-bottom: 15px;
+  padding: 22px;
 }
 .letreiro {
-    text-align: center;
-    color: orangered;
-    font-size: 25px;
-    max-width: 500px;
-    width: 20px;
-    
+  text-align: center;
+  color: orangered;
+  font-size: 25px;
+  max-width: 500px;
+  width: 20px;
 }
 
 .logo {
-    text-align: justify;
-    max-width: 100px;
-    width: 100px;
-    margin: 0 0 13px 15px;
-
+  text-align: justify;
+  max-width: 100px;
+  width: 100px;
+  margin: 0 0 13px 15px;
 }
 
 .icon {
-    text-align:end;
-    max-width: 50px;
-    width: 50px;
-    margin: 0 0 24px 1127px;
-        
+  text-align: end;
+  max-width: 50px;
+  width: 50px;
+  margin: 0 0 24px 1127px;
 }
 
 .carrossel {
-   max-width: 800px;
-   width: 800px;
-   height: 400px;
-   text-align: center;
-   margin-left: 273px;
-
+  max-width: 800px;
+  width: 800px;
+  height: 400px;
+  text-align: center;
+  margin-left: 273px;
 }
 
 .buttons {
-    text-align: center;
-        
+  text-align: center;
 }
 article p {
-    width: 100%;
+  width: 100%;
 }
 
 article h2 {
-    color: orangered;
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: orangered;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
-    color: orangered;
-    font-size: 14px;
-    line-height: 18px;
-    
+  color: orangered;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 footer {
-    color: orangered;
-    font-style: italic;
+  color: orangered;
+  font-style: italic;
 }
 
-
-
-
 @media (max-widht: 1301px) {
+  article {
+    width: 100%;
+  }
 
-    article {
-        width: 100%;
-    }
-        
-    .logo{
-        width: 100%;
-        margin-bottom: 20px;
-    }
+  .logo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-    .icon {
-        width: 100%;
-        padding-left: 900px;
-        margin-bottom: 30px;
-    }
+  .icon {
+    width: 100%;
+    padding-left: 900px;
+    margin-bottom: 30px;
+  }
 
-    .letreiro {
-        width: 500px;
-    }
+  .letreiro {
+    width: 500px;
+  }
 
-    .carrossel {
-       width: 100%;
-      
-              
-    }
-
-   
+  .carrossel {
+    width: 100%;
+  }
 }
