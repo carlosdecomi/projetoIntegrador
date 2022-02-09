@@ -297,7 +297,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/assets/img/banner-topo.png);
+  background-image: url(pagina-home/assets/img/banner-topo.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -607,7 +607,7 @@ img {
     height: 35rem;
     display: flex;
     align-items: center;
-    background-image: url(/assets/img/banner-topo.png);
+    background-image: url(pagina-home/assets/img/banner-topo.png);
     background-position: 50%;
     position: relative;
     background-size: cover;
@@ -701,7 +701,7 @@ img {
     height: 37.5rem;
     display: flex;
     align-items: center;
-    background-image: url(/assets/img/banner-topo.png);
+    background-image: url(pagina-home/assets/img/banner-topo.png);
     background-position: 50%;
     position: relative;
     background-size: cover;
@@ -795,7 +795,7 @@ img {
     height: 37.5rem;
     display: flex;
     align-items: center;
-    background-image: url(/assets/img/banner-topo.png);
+    background-image: url(pagina-home/assets/img/banner-topo.png);
     background-position: 50%;
     position: relative;
     background-size: cover;
