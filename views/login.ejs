@@ -47,7 +47,7 @@
   
     <div id="modal-signUp" class="modal-container">
       <div class="modal">
-        <form action="">
+        <form action="/user/cadastrar" enctype="multipart/form-data" method="POST" >
           <h2>Cadastre-se!</h2>
           <button class="close">x</button>
           <div>
@@ -57,8 +57,10 @@
             <input type="email" id="email" placeholder="Email" class="modal-input-signUp">
             <input type="password" id="senha" placeholder="Crie uma senha" class="modal-input-signUp">
             <input type="password" id="confirmeSenha" placeholder="Confirme a senha" class="modal-input-signUp">
+            <input type="file" id="arquivo" name="arquivo" accept=".jpg, .png" value="arquivo"> 
+            <label for="arquivo"> Insira imagem desejada.</label> 
           </div>
-          <button class="btn-modal" onclick="toggle()">enviar</button>
+          <button type="submit" class="btn-modal">enviar</button>
   
   
         </form>
