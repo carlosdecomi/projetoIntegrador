@@ -47,17 +47,15 @@
   
     <div id="modal-signUp" class="modal-container">
       <div class="modal">
-        <form action="/user/cadastrar" enctype="multipart/form-data" method="POST" >
+        <form action="/user/cadastrar" enctype="" method="POST" >
           <h2>Cadastre-se!</h2>
           <button class="close">x</button>
           <div>
-            <input type="text" id="usuario" placeholder="Usuário" class="modal-input-signUp">
             <input type="text" id="nome" placeholder="Nome Completo" class="modal-input-signUp">
-            <input type="date" id="data-de-nascimento" placeholder="Data de Nascimento" class="modal-input-signUp"> <br />
             <input type="email" id="email" placeholder="Email" class="modal-input-signUp">
             <input type="password" id="senha" placeholder="Crie uma senha" class="modal-input-signUp">
             <input type="password" id="confirmeSenha" placeholder="Confirme a senha" class="modal-input-signUp">
-            <input type="file" id="arquivo" name="arquivo" accept=".jpg, .png" value="arquivo"> 
+            <input type="file" id="arquivo" name="arquivo" value="arquivo"> 
             <label for="arquivo"> Insira imagem desejada.</label> 
           </div>
           <button type="submit" class="btn-modal">enviar</button>

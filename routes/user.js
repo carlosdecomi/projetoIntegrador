@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
-var multer = require('multer');
+const multer = require('multer');
+const UserController = require ('../controllers/UserController');
+
 
 const storage = multer.diskStorage({
   destination (req, file, callback) {
@@ -20,11 +22,7 @@ router.get('/', function(req, res) {
   res.render('user', { route: 'user' });
 });
 
-router.post('/cadastrar', upload.single('arquivo'), function(req,res){
-  var {file, body} = req;
-  console.log(file,body);
-  return res.redirect('/catalog'); 
-} )
+router.post('/cadastrar', upload.single('arquivo'), UserController.create);
 
 
 module.exports = router;
